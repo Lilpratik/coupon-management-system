@@ -69,6 +69,8 @@ http://localhost:5000
 ## 1. Create Coupon  
 POST /api/coupon
 
+## LIVE BACKEND URL : https://coupon-management-system-production.up.railway.app/api/coupon
+
 Example (Flat Discount):
 
 {
@@ -115,6 +117,8 @@ Example (Percentage Discount):
 ## 2. Get Best Coupon  
 POST /api/coupon/best
 
+## LIVE BACKEND URL : https://coupon-management-system-production.up.railway.app/api/coupon/best
+
 {
   "user": {
     "userId": "u123",
@@ -134,3 +138,37 @@ POST /api/coupon/best
     ]
   }
 }
+
+
+
+Name:Pratik Mohite
+
+GitHub Repo:(https://github.com/Lilpratik/coupon-management-system.git)
+
+Live Demo Link:
+https://coupon-management-system-production.up.railway.app/
+
+--> use /api/coupon              --> to create coupons 
+
+
+--> use /api/coupon/best         --> to get the best matching coupon or the cart
+
+
+Tech Stack Used:
+
+Node.js, Express.js, In-Memory Storage
+
+Notes for Reviewer:
+
+Built according to assignment requirements
+
+Fully supports coupon creation, eligibility rules & deterministic coupon selection
+
+Includes clear logic separation (controllers, routes, utils)
+
+No DB used (per assignment instructions)
+
+Example test inputs provided in README
+
+In-memory storage resets on restart
+
