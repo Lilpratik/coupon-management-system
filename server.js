@@ -15,6 +15,6 @@ app.use('/api', couponRoutes);
 // starting the server 
 const PORT = 5000;
 app.listen(PORT, () => {
-    console.log(`Server running on port http://localhost:${PORT}/`);
+    console.log(`Server running on port ${PORT}`);
 });
 
